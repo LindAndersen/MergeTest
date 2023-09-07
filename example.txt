@@ -1,0 +1,6 @@
+Hello, World
+
+vim "duocement"
+insert to write 
+insert igen to replace
+esc to terminal ":wq"
