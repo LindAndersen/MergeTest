@@ -1,0 +1,29 @@
+git init			// initializes a git repository
+git status
+				// Staging area -> temp store files to be commited
+git add <filename>		// Adds a file to staging area
+git add .			// Adds all untracked or changed files to staging area
+git commit -m <"commit msg">	// Commits to master branch w msg
+git log
+git checkout <commit hash>	// You checkout any version of the master file as long as you have the commit hash (can be found with git log)
+git branch			// Shows you no of branches in repo
+git branch <branch name>	// Creates a new branch
+git branch -d <branch name>	// Deletes branch
+git merge <branch name>		// Merges a branch with master
+
+touch <filename>		// Creates a new file
+
+
+_____________________________
+
+GitHub
+
+git remote -v			// Returns a list of all connected GitHub remotes
+git push -u <remote> <branch>	// Pushes branch to repo via remote, also sets origin as the remote target, so after this is done once just do: git push
+git pull <remote> <branch>	// Pulls changes via remote from branch
+git checkout -b <new branch>	// Shorthand for creating and switching to a new branch
+cd ..				// Goes back one dir
+mkdir <dir name>		// Creates a new dir
+cd <dir path>			// Goes to that location, dir path can be relative from current position
+
+open .
